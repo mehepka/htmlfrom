@@ -1,0 +1,35 @@
+.container {
+    display: grid;
+    justify-content: center;
+  }
+  
+  input[type=text], input[type=email], input[type=password]{
+    display: grid;
+    width: 100%;
+    padding: 10px 0; 
+    margin: 10px 0;
+    border: none;
+    background: lightblue;
+    opacity: 0.7;
+  }
+  input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
+    outline: none;
+    opacity: 1;  
+  }
+  .sign{
+    background-color: rgb(118, 200, 209);
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  .sign:hover {
+    opacity:1;
+  }
+  a {color: dodgerblue;}
+  
+  
+  
